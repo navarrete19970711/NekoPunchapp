@@ -20,8 +20,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    
-
     // 1) 画面タッチ
     override fun onTouchEvent(event: MotionEvent?): Boolean {
         val iv:ImageView = findViewById(R.id.iv)
